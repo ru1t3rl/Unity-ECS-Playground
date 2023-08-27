@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8965022867102237232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5863755114248269141}
+  - component: {fileID: 5052683680088775720}
+  - component: {fileID: 719419706387634888}
+  - component: {fileID: 779652852372831111}
+  m_Layer: 0
+  m_Name: PineTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5863755114248269141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965022867102237232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1171873410099782156}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &5052683680088775720
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965022867102237232}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.08289337, y: 2.4712029, z: -0.2374351}
+  m_Size: 26.94193
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.65
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2384243563354467}
+    - renderer: {fileID: 278014258844812408}
+  - screenRelativeHeight: 0.15
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2384243563354467}
+  - screenRelativeHeight: 0.05
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
+--- !u!182 &719419706387634888
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965022867102237232}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 1
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 0.5
+  m_WindPulseFrequency: 0.01
+--- !u!65 &779652852372831111
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965022867102237232}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16178167, y: 2.8884008, z: 0.20159149}
+  m_Center: {x: 0.006060317, y: 1.4503366, z: 0.0063215196}
+--- !u!1001 &1252896608949933785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5863755114248269141}
+    m_Modifications:
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000081460335
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750881603899223663, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+      propertyPath: m_Name
+      value: PineTree_LOD0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 392056766433805950, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+--- !u!23 &2384243563354467 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1255192196721037242, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+  m_PrefabInstance: {fileID: 1252896608949933785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &278014258844812408 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1348998157025989281, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+  m_PrefabInstance: {fileID: 1252896608949933785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1171873410099782156 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 81199465187882197, guid: 8c47365003c0c9145b3672ae62022e39, type: 3}
+  m_PrefabInstance: {fileID: 1252896608949933785}
+  m_PrefabAsset: {fileID: 0}

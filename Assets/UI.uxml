@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=7ceb5cdb57f3baa4084584f5c932a494&amp;type=3#StyleSheet" />
+    <ui:Label text="Label" name="Main" class="text-base" style="align-self: center; font-size: 50px; -unity-text-align: middle-center; position: absolute; top: 50%; bottom: 50%;" />
+    <ui:GroupBox style="flex-direction: row; padding-left: 30px; padding-bottom: 40px; padding-top: 40px; padding-right: 30px;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-wrap: wrap; width: 50%; align-items: flex-start;">
+            <ui:Label text="Player 1" name="Tag_Player_01" class="text-base player-tag" />
+            <ui:Label text="0000" name="Score_Player_01" class="text-base score" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-wrap: wrap-reverse; width: 50%; flex-direction: column; align-items: flex-start;">
+            <ui:Label text="Player 1" name="Tag_Player_02" class="text-base player-tag" />
+            <ui:Label text="0000" name="Score_Player_02" class="text-base score" style="-unity-text-align: upper-right;" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>
